@@ -1,0 +1,4 @@
+The map is updated by a client that every player runs. It captures the position traffic the player is sending to the server and sends this on to the web frontend for the map.
+
+Once there, the position data is stored in a database, where it can be used to render out player positions and be used to define roads, tunnels, areas and points of interest.
+Because the data acquisition is performed on the client side, there is no need to change the server configuration at all. The system could be used on a server without the admins knowledge. 
